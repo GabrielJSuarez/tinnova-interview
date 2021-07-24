@@ -10,16 +10,16 @@
 
 > ENDPOINTS:
 
-####To get the beer with the name 'AB:08'
+### To get the beer with the name 'AB:08'
 `localhost:3000/beers?beer_name=AB:08` 
 
-####To get the third page of beer results, return 25 entries
+### To get the third page of beer results, return 25 entries
 `localhost:3000/beers?page=3` 
 
-####Retrieve a list of beers with an abv greater than 10, max 25 entries
+### Retrieve a list of beers with an abv greater than 10, max 25 entries
 `localhost:3000/beers?abv_gt=10` 
 
-#### If you don't pass any value you will get the first 25 beer entries
+### If you don't pass any value you will get the first 25 beer entries
 `localhost:3000/beers`
 
 > A user will see a beer of list of beers, the beers that the user has seen will not duplicate in the response or database. Several users can make use of the API and they will only see their selection. No crossing of data between users.
