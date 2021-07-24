@@ -24,7 +24,7 @@
 
 > A user will see a beer of list of beers, the beers that the user has seen will not duplicate in the response or database. Several users can make use of the API and they will only see their selection. No crossing of data between users.
 
-####Response (JSON)
+### Response (JSON)
 ```json
 {
   "id": 2,
@@ -47,7 +47,7 @@
 
 > ENDPOINTS:
 
-####Mark the Beer AB:08 as favorite
+### Mark the Beer AB:08 as favorite
 `localhost:3000/favorite?beer_name=AB:08`
 
 ```json
